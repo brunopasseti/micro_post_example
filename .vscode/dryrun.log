@@ -1,0 +1,38 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/brunopasseti/Desktop/micro/aaaaa'
+mconf-idf is not required on this platform
+mconf-idf is not required on this platform
+ 
+Python requirements from /home/brunopasseti/.local/esp/esp-idf/requirements.txt are satisfied.
+TERM environment variable is set to "xterm-256color"
+ 
+DEFCONFIG
+ 
+MENUCONFIG
+ 
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[?1l>Loaded configuration '/home/brunopasseti/Desktop/micro/aaaaa/sdkconfig'
+ 
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/curses/__init__.py", line 89, in wrapper
+    cbreak()
+_curses.error: cbreak() returned ERR
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/brunopasseti/.espressif/python_env/idf4.4_py3.8_env/lib/python3.8/site-packages/menuconfig.py", line 3278, in <module>
+    _main()
+  File "/home/brunopasseti/.espressif/python_env/idf4.4_py3.8_env/lib/python3.8/site-packages/menuconfig.py", line 663, in _main
+    menuconfig(standard_kconfig(__doc__))
+  File "/home/brunopasseti/.espressif/python_env/idf4.4_py3.8_env/lib/python3.8/site-packages/menuconfig.py", line 732, in menuconfig
+    print(curses.wrapper(_menuconfig))
+  File "/usr/lib/python3.8/curses/__init__.py", line 111, in wrapper
+    nocbreak()
+_curses.error: nocbreak() returned ERR
+
+make: Leaving directory '/home/brunopasseti/Desktop/micro/aaaaa'
+ 

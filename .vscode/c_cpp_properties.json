@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/brunopasseti/.local/esp/esp-idf/**"
+            ],
+            "defines": [],
+            "compilerPath": "/home/brunopasseti/.local/esp/xtensa-lx106-elf/bin/xtensa-lx106-elf-gcc",
+            "intelliSenseMode": "macos-gcc-x64",
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
